@@ -2,7 +2,7 @@
 <launch>
     <arg name="suffix" default=""/> <!-- must be set if running multiple instances -->
     
-    <arg name="laser" default="laser"/> <!-- laser topic -->
+    <arg name="laser" default="/scan"/> <!-- laser topic -->
     <arg name="subscriber_queue_size" default="1"/>
     <arg name="synchronizer_queue_size" default="5"/>
 
